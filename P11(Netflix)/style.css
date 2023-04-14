@@ -1,0 +1,663 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgba(0, 0, 0, 0.853); */
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    overflow-x: hidden;
+    /* background-color: black; */
+    /* background-color: rgba(0, 0, 0, 0.853); */
+
+}
+
+/* ====================== */
+
+
+.page1{
+    width: 100%;
+    height: 73%;
+    /* background-color: bisque; */
+    background-image: url(/IN-en-20230403-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+nav{
+    width: 100vw;
+    height: 10vh;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav h1{
+    font-size: 3vmax;
+    color: red;
+}
+nav i{
+    display: none;
+}
+nav .ntop select{
+    width: 130px;
+    height: 3.2vh;
+    color: white;
+    background-color: black;
+
+}
+nav button{
+    margin-left: 1vw;
+    height: 3.2vh;
+    width: 90px;
+    background-color: red;
+    color: white;
+}
+
+/* ------------------------------------------------------------------------- */
+.p1top{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: vh; */
+    color: white;
+
+}
+.p1top h1{
+    font-size: 2.5vmax;
+}
+.p1top h3{
+    font-weight: 400;
+}
+.p1top p{
+    margin-top: 2vh;
+    font-size: 1.1vmax;
+}
+.page1 .email input{
+    
+    width: 20vw;
+    height: 5.8vh;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.404);
+
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.email button{
+    width: 10.5vw;
+    height: 6.5vh;
+    font-size: 1.3vmax;
+    font-weight: 400;
+    padding: 0vmax 1vmax ;
+    /* text-align: center; */
+    margin-left: .5vmax;
+    background-color: red;
+    color: white;
+}
+
+
+
+
+/* ======================================================/ */
+
+
+
+
+.page2{
+    /* margin-top: .5vmax; */
+    width: 100%;
+    height: 60%;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page2 h1{
+    font-size: 2.7vmax;
+}
+.page2 p{
+    margin-top: 1vmax;
+    font-size: 1.2vmax;
+}
+
+.tv{
+    /* background-image: url(/tv.png); */
+    
+    /* background-: ; */
+    
+}
+
+/* ====================================== */
+.page3{
+    width: 100%;
+    height: 60%;
+    background-color: black;
+    /* margin-top: .6vmax; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p3box img {
+    width: 27vw;
+    height: 48h;
+    /* margin-top: 2vmax; */
+ 
+}
+.p3box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.download{
+    width: 16vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 1vmax;
+    background-color: rgb(26, 23, 23);
+}
+.download img{
+    width: 50px;
+    height: 50px;
+
+}
+
+.download p{
+    color: blueviolet;
+    
+}
+
+
+.p3 h1{
+    font-size: 2.6vmax;
+    font-weight: 900;
+}
+.p3 p{
+    margin-top: 1vmax;
+    font-size: 1.3vmax;
+}
+
+/*  =============================================  */
+.page4{
+    width: 100%;
+    height: 60%;
+    color: white;
+    background-color: black;
+    /* margin-top: 0.6vmax; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.page4 h1{
+    font-size: 2.7vmax;
+}
+.page4 p{
+    margin-top: 1vmax;
+    font-size: 1.2vmax;
+}
+
+
+
+/* =================================== */
+.page5{
+    width: 100%;
+    height: 60%;
+    background-color: black;
+    /* margin-top: .6vmax; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.p5 h1{
+    font-size: 2.6vmax;
+    font-weight: 900;
+}
+.p5 p{
+    margin-top: 1vmax;
+    font-size: 1.3vmax;
+}
+/* ========================================= */
+
+
+.page6{
+    width: 100%;
+    height: 90%;
+    background-color: black;
+    /* margin-top: 0.6vmax; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page6 h1{
+    /* margin-top: -3vmax; */
+    margin-bottom: 2vmax;
+    font-size: 2.7vmax;
+    font-weight: 900;
+}
+.page6 .Questions{
+    width: 100%;
+}
+
+
+.page6 .Questions ul li{
+    margin-bottom: .5vmax;
+    width: 60%;
+    padding: .7vmax 1vmax;
+    /* height:////%; */
+    font-size: 1.3vmax;
+    font-weight: 400;
+    margin-left:19%;
+    background-color: rgba(128, 128, 128, 0.319);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.p6bottom{
+    margin-top: 4vmax;
+}
+.page6 .p6bottom p{
+    font-size: 1vmax;
+
+}
+.page6 .email input{
+    
+    width: 20vw;
+    height: 5.6vh;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.404);
+
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.email button{
+    width: 10.5vw;
+    height: 6vh;
+    font-size: 1.3vmax;
+    font-weight: 400;
+    padding: 0vmax 1vmax ;
+    /* text-align: center; */
+    margin-left: .5vmax;
+    background-color: red;
+    color: white;
+}
+
+/* ================================================== */
+
+.page7{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    color: white;
+    /* margin-top: 0.6vmax; */
+    padding-top: 3vmax;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    
+}
+.p7ul{
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    font-size: 1vmax;
+    font-weight: 200;
+    /* margin-left: -10%; */
+    margin-top: 2vmax;
+    
+}
+
+
+.ul1 , .ul2 , .ul3{
+    margin-left: 12%;
+}
+ul li{
+    list-style: none;
+    /* margin-right: 20%; */
+}
+
+.page7 p{
+    margin-left:14%;
+
+}
+.page7 select{
+    width: 100px;
+    height: 30px;
+    margin-left: 14%;
+    margin-top: 1vmax;
+    background-color: black;
+    color: white;
+
+}
+.page7 .last{
+    margin-top: 3vmax;
+    color: grey;
+}
+U{
+    opacity: 1;
+}
+
+/* .border{
+    width: 100%;
+    height: 2%;
+    background-color: rgba(0, 0, 0, 0.875);
+} */
+
+
+/* 
+=============================================
+
+
+===================================================== */
+
+
+
+@media (max-width: 600px){
+.page1{
+    width: 100%;
+    height: 60%;
+}
+
+    nav h1{
+        font-size: 3.2vmax;
+    }
+    nav .ntop{
+        margin-left: 40%;
+
+    }
+
+
+nav .ntop select{
+    width: 40px;
+    height: 30px;
+}
+nav i{
+    display: inherit;
+}
+
+
+nav button{
+    width: 70px;
+    height: 30px;
+}
+
+/* ............................... */
+
+
+.p1top{
+    margin-top: -5%;
+
+}
+
+.p1top h1 {
+  font-size: 4.1vmax  ;
+  font-weight: 600;
+  padding-left: 0%;
+  text-align: center;
+  /* margin-bottom: 4vmax; */
+
+}
+.p1top h3{
+  font-size: 2vmax;
+  margin-top: 1vmax;
+
+}
+.p1top p{
+    font-size: 2vmax;
+    padding: 0vmax 6vmax;
+    font-weight: 500;
+    text-align: center;
+}
+.email{
+    margin-top: 1vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.page1 .email input{
+    width: 80vw;
+    height: 5.5vh;
+}
+.email button{
+    width: 30vw;
+    height: 6vh;
+    margin-top: 2vh;
+    border: none;
+    font-weight: 900;
+    font-size: 2vmax;
+    border-radius: .5vmax;
+}
+
+
+
+/* ========================== */
+
+.page2{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content:  space-evenly;
+    align-items: center;
+    text-align: center;
+    
+}
+.page2 h1{
+ font-size: 4vmax;
+ font-weight: 600;
+}
+.page2 p{
+    margin-top: 2vmax;
+    font-weight: 500;
+    font-size: 2vmax;
+    /* padding: 0vmax 1.8vmax; */
+    /* text-align: center; */
+}
+.page2 img{
+    width: 85vw;
+    height: 40vh;
+}
+
+/* =============================== */
+.page3{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.p3 h1{
+    font-size: 3.6vmax;
+    text-align: center;
+}
+.p3 p{
+    font-size: 2vmax;
+    text-align: center;
+    margin-top: 1vmax;
+}
+.p3box img{
+    width: 85vw;
+    height: 35vh;   
+}
+.download img{
+    width: 50px;
+    height: 50px;
+
+}
+
+
+/* =======================/ */
+
+
+.page4{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.page4 h1{
+    font-size: 4.2vmax;
+    font-weight: 900;
+}
+.page4 p{
+    font-size: 2vmax;
+    font-weight: 400;
+    margin-top: 2vmax;
+}
+.page4 img{
+    width: 78vw;
+    height: 37vh;
+}
+
+/* ========================== */
+
+.page5{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+.page5 h1{
+    font-size: 3.6vmax;
+    font-weight: 900;
+}
+.page5 p{
+    font-size: 1.9vmax;
+    font-weight: 500;
+    margin-top: 2vmax;
+    line-height: 2.6vmax;
+}
+.page5 img{
+    width: 77vw;
+    height: 35vh;
+
+}
+
+/* ============================== */
+
+
+.page6{
+    padding: 0 3vmax;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: left;
+
+}
+.page6 h1{
+    font-size: 3.6vmax;
+    font-weight: 900;
+    margin-top: 6vh;
+
+}
+
+.page6 .Questions{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;
+    margin-left: -19.9vw;
+    text-align: center;
+
+}
+.page6 .Questions ul li{
+ padding:  1.5vmax 2vmax;
+    width: 84vw;
+    height: 7.5vh;
+    font-size: 2.1vmax;
+    display: flex;
+    margin-top: 1vmax;
+    
+}
+
+.p6bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page6 .p6bottom p{
+    font-size: 2vmax;
+    padding: 0vmax 3vmax;
+    text-align: center;
+}
+.email{
+    margin-top: 1vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.page6 .email input{
+    width: 80vw;
+    height: 5.5vh;
+}
+.email button{
+    width: 30vw;
+    height: 6vh;
+    margin-top: 2vh;
+    border: none;
+    font-weight: 900;
+    font-size: 2vmax;
+    border-radius: .5vmax;
+}
+
+/* ============================= */
+
+.page7{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: start;
+
+}
+.p7ul{
+    width: 50%;
+  font-size: 1.7vmax;
+  font-weight: 300;
+  opacity: .8;
+}
